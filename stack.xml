@@ -3,7 +3,9 @@
     ROS package of the 3rd party package OpenHRP.
   </description>
   <author>Thomas Moulard/thomas.moulard@gmail.com</author>
-  <license>BSD</license>
+  <license>BSD,EPL</license>
   <review status="experimental" notes=""/>
   <url>http://ros.org/wiki/openhrp</url>
+  <depend stack="openrtm" /> <!-- openrtm -->
+  <depend stack="ros" />
 </stack>
