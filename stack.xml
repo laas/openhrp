@@ -1,0 +1,9 @@
+<stack>
+  <description brief="OpenHRP">
+    ROS package of the 3rd party package OpenHRP.
+  </description>
+  <author>Thomas Moulard/thomas.moulard@gmail.com</author>
+  <license>BSD</license>
+  <review status="experimental" notes=""/>
+  <url>http://ros.org/wiki/openhrp</url>
+</stack>

@@ -1,0 +1,11 @@
+<package>
+  <description brief="OpenHRP">
+    ROS package of the 3rd party package OpenHRP.
+  </description>
+  <author>Thomas Moulard</author>
+  <license>EPL</license>
+  <review status="experimental" notes=""/>
+  <url>http://www.openrtp.jp/openhrp3/</url>
+
+  <depend package="openrtm" />
+</package>

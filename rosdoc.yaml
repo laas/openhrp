@@ -1,0 +1,4 @@
+ - builder: external
+   external_url: http://www.openrtp.jp/openhrp3/en/users_manual.html
+   output_dir: manual
+   name: User Manual
