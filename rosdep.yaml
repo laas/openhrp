@@ -3,3 +3,15 @@ liblapack-dev:
   debian: liblapack-dev
   fedora: lapack-devel
   ubuntu: liblapack-dev
+libjpeg:
+  arch: libjpeg-turbo
+  debian: libjpeg62-dev
+  fedora: libjpeg-devel
+  macports: jpeg
+  ubuntu:
+    lucid: libjpeg62-dev
+    maverick: libjpeg62-dev
+    natty: libjpeg62-dev
+    oneiric: libjpeg62-dev,
+    precise: libjpeg-dev
+    quantal: libjpeg-dev
