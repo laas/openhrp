@@ -19,3 +19,9 @@ libpng12-dev:
   arch: libpng
   fedora: libpng-devel
   ubuntu: libpng12-dev
+java:
+  arch: openjdk6
+  debian: openjdk-6-jdk
+  freebsd: openjdk6
+  gentoo: dev-java/sun-jdk,
+  ubuntu: default-jdk
