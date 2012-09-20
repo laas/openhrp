@@ -17,6 +17,7 @@
   </export>
 
   <depend package="openrtm" />
+  <rosdep name="eigen" />
   <rosdep name="liblapack-dev" />
   <rosdep name="unzip" />
 </package>
