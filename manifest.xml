@@ -7,6 +7,15 @@
   <review status="experimental" notes=""/>
   <url>http://www.openrtp.jp/openhrp3/</url>
 
+  <export>
+    <cpp
+       cflags="-I${prefix}/install/include"
+       lflags="-L${prefix}/install/lib -Wl,-rpath,${prefix}/install/lib -lhrpCorbaStubSkel-3.1"
+       />
+
+    <rosdoc config="rosdoc.yaml" />
+  </export>
+
   <depend package="openrtm" />
   <rosdep name="unzip" />
 </package>
