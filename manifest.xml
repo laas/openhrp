@@ -9,8 +9,8 @@
 
   <export>
     <cpp
-       cflags="-I${prefix}/install/include"
-       lflags="-L${prefix}/install/lib -Wl,-rpath,${prefix}/install/lib -lhrpCorbaStubSkel-3.1"
+       cflags="-I${prefix}/install/include -I${prefix}/install/include/OpenHRP-3.1 `pkg-config --cflags eigen3`"
+       lflags="-L${prefix}/install/lib -Wl,-rpath,${prefix}/install/lib `pkg-config --libs eigen3` -lhrpCorbaStubSkel-3.1 -lhrpModel-3.1 -lhrpUtil-3.1"
        />
 
     <rosdoc config="rosdoc.yaml" />
