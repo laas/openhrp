@@ -25,3 +25,5 @@ java:
   freebsd: openjdk6
   gentoo: dev-java/sun-jdk,
   ubuntu: default-jdk
+jython:
+  ubuntu: jython
