@@ -20,5 +20,6 @@
   <rosdep name="eigen" />
   <rosdep name="liblapack-dev" />
   <rosdep name="libjpeg" />
+  <rosdep name="libpng12-dev" />
   <rosdep name="unzip" />
 </package>

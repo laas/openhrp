@@ -15,3 +15,7 @@ libjpeg:
     oneiric: libjpeg62-dev,
     precise: libjpeg-dev
     quantal: libjpeg-dev
+libpng12-dev:
+  arch: libpng
+  fedora: libpng-devel
+  ubuntu: libpng12-dev
