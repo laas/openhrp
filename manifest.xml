@@ -21,6 +21,7 @@
   <rosdep name="liblapack-dev" />
   <rosdep name="libjpeg" />
   <rosdep name="libpng12-dev" />
+  <rosdep name="f2c" />
   <rosdep name="java" />
   <rosdep name="jython" />
   <rosdep name="unzip" />

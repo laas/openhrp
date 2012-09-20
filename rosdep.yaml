@@ -27,3 +27,5 @@ java:
   ubuntu: default-jdk
 jython:
   ubuntu: jython
+f2c:
+  ubuntu: f2c libf2c2 libf2c2-dev
