@@ -1,0 +1,18 @@
+<!-- -*-xml-*-
+     Simulation.
+  -->
+<launch>
+  <!-- Launch dynamics simulator -->
+  <node pkg="openhrp"
+	type="openhrp-aist-dynamics-simulator"
+	name="openhrp_aist_dynamics_simulator"
+	respawn="true"
+	/>
+
+  <!-- Launch dynamics simulator -->
+  <node pkg="openhrp"
+	type="openhrp-collision-detector"
+	name="openhrp_collision_detector"
+	respawn="true"
+	/>
+</launch>
