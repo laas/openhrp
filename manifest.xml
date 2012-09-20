@@ -8,4 +8,5 @@
   <url>http://www.openrtp.jp/openhrp3/</url>
 
   <depend package="openrtm" />
+  <depend package="unzip" />
 </package>

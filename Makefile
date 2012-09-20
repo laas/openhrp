@@ -2,9 +2,8 @@ all: openhrp
 
 VERSION     = 3.1.3
 TARBALL     = build/OpenHRP-$(VERSION)-2.zip
-#TARBALL_URL = \
-#https://openrtp.jp/openhrp3/script-jp/download_file.php?fname=OpenHRP-$(VERSION).zip
-TARBALL_URL=http://homepages.laas.fr/tmoulard/OpenHRP-$(VERSION)-2.zip
+TARBALL_URL= \
+https://github.com/downloads/laas/openhrp/OpenHRP-$(VERSION)-2.zip
 UNPACK_CMD  = unzip
 SOURCE_DIR  = build/OpenHRP-$(VERSION)
 MD5SUM_FILE = OpenHRP-$(VERSION)-2.zip.md5sum
