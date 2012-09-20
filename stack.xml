@@ -7,5 +7,6 @@
   <review status="experimental" notes=""/>
   <url>http://ros.org/wiki/openhrp</url>
   <depend stack="openrtm" /> <!-- openrtm -->
+  <depend stack="common_rosdeps" />
   <depend stack="ros" />
 </stack>
