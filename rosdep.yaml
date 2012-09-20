@@ -1,0 +1,5 @@
+liblapack-dev:
+  arch: lapack
+  debian: liblapack-dev
+  fedora: lapack-devel
+  ubuntu: liblapack-dev
