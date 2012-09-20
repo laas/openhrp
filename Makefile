@@ -12,9 +12,11 @@ INSTALL_DIR = install
 
 CMAKE_FLAGS = \
 	-DCMAKE_INSTALL_PREFIX:STRING=`rospack find openhrp`/$(INSTALL_DIR)/ \
-	-DCMAKE_BUILD_TYPE:STRING=Release \
-	-DOPENRTM_DIR:STRING=`rospack find openrtm`/install \
-	-DCOLLADA_DOM_DIR:STRING=`rospack find colladadom`
+	-DCMAKE_BUILD_TYPE:STRING=Release 			\
+	-DOPENRTM_DIR:STRING=`rospack find openrtm`/install 	\
+	-DCOLLADA_DOM_DIR:STRING=`rospack find colladadom` 	\
+	-DENABLE_INSTALL_RPATH:BOOL=ON 				\
+	-DENABLE_INSTALL_RPATH_TO_SELF:BOOL=ON
 
 include $(shell rospack find mk)/download_unpack_build.mk
 
