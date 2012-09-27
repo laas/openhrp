@@ -16,7 +16,7 @@
     <rosdoc config="rosdoc.yaml" />
   </export>
 
-  <depend package="openrtm" />
+  <depend package="openrtm_cpp" />
   <rosdep name="eigen" />
   <rosdep name="liblapack-dev" />
   <rosdep name="libjpeg" />

@@ -6,7 +6,7 @@
   <license>BSD,EPL</license>
   <review status="experimental" notes=""/>
   <url>http://ros.org/wiki/openhrp</url>
-  <depend stack="openrtm" /> <!-- openrtm -->
+  <depend stack="openrtm_cpp" /> <!-- openrtm_cpp -->
   <depend stack="common_rosdeps" />
   <depend stack="ros" />
 </stack>
