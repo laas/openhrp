@@ -9,10 +9,17 @@
 	respawn="true"
 	/>
 
-  <!-- Launch dynamics simulator -->
+  <!-- Launch collision detector -->
   <node pkg="openhrp"
 	type="openhrp-collision-detector"
 	name="openhrp_collision_detector"
+	respawn="true"
+	/>
+
+  <!-- Launch model loader -->
+  <node pkg="openhrp"
+	type="openhrp-model-loader"
+	name="openhrp_model_loader"
 	respawn="true"
 	/>
 </launch>
