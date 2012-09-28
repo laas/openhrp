@@ -10,9 +10,10 @@ MD5SUM_FILE = OpenHRP-$(VERSION)-2.zip.md5sum
 
 INSTALL_DIR = install
 
+# OpenHRP does not support RelWithDebInfo profile.
 CMAKE_FLAGS = \
 	-DCMAKE_INSTALL_PREFIX:STRING=`rospack find openhrp`/$(INSTALL_DIR)/ \
-	-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo		\
+	-DCMAKE_BUILD_TYPE:STRING=Release			\
 	-DOPENRTM_DIR:STRING=`rospack find openrtm_cpp`/install \
 	-DCOLLADA_DOM_DIR:STRING=`rospack find colladadom` 	\
 	-DENABLE_INSTALL_RPATH:BOOL=ON 				\
