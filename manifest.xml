@@ -25,5 +25,6 @@
   <rosdep name="java" />
   <rosdep name="jython" />
   <rosdep name="unzip" />
+  <rosdep name="doxygen" />
   <rosdep name="pkg-config"/>
 </package>
