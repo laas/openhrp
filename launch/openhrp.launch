@@ -1,6 +1,5 @@
-<!-- -*-xml-*-
-     Simulation.
-  -->
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Start the servers. -->
 <launch>
   <!-- Launch dynamics simulator -->
   <node pkg="openhrp"
